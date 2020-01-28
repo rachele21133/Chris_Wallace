@@ -65,13 +65,27 @@
 
 @font-face {
   font-family: "IssueIcons";
-  src: url("../fonts/Issue_Icons/IssueIcons-Regular.eot?53705133");
-  src: url("../fonts/Issue_Icons/IssueIcons-Regular.eot?53705133#iefix") format("embedded-opentype"),
-       url("../fonts/Issue_Icons/IssueIcons-Regular.woff?53705133") format("woff"),
-       url("../fonts/Issue_Icons/IssueIcons-Regular.ttf?53705133") format("truetype"),
-       url("../fonts/Issue_Icons/IssueIcons-Regular.svg?53705133#IssueIcons-Regular") format("svg");
+  src: url("../fonts/Issue_Icons/Issue_Icons.eot?53705133");
+  src: url("../fonts/Issue_Icons/Issue_Icons.eot?53705133#iefix") format("embedded-opentype"),
+       url("../fonts/Issue_Icons/Issue_Icons.woff?53705133") format("woff"),
+       url("../fonts/Issue_Icons/Issue_Icons.ttf?53705133") format("truetype"),
+       url("../fonts/Issue_Icons/Issue_Icons.svg?53705133#Issue_Icons") format("svg");
   font-weight: normal;
   font-style: normal;
+}
+
+@charset "UTF-8";
+
+@font-face {
+	font-family: "IssueIcons";
+	src:url("../fonts/Issue_Icons.eot");
+	src:url("../fonts/Issue_Icons.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/Issue_Icons.woff") format("woff"),
+	url("../fonts/Issue_Icons.ttf") format("truetype"),
+	url("../fonts/Issue_Icons.svg#Issue_Icons") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	
 }
 
 /* ------------------------------- */
